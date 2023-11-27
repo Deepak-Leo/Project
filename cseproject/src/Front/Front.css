@@ -1,11 +1,13 @@
 /* styles.css */
-
 .divsty {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://digitalsynopsis.com/wp-content/uploads/2017/03/beautiful-color-gradients-backgrounds-078-cochiti-lake.png);
     font-family: "sans-serif";
     margin-top: -10px;
   }
   .Header {
-    background-color: rgb(22, 125, 165);
+    background-color: rgb(7, 161, 212);
     height: 10vh;
     display: flex;
     justify-content: space-between;
@@ -16,7 +18,9 @@
     padding-bottom: 25px;
   }
 /* styles.css */
-
+.Header-ul{
+  padding-right: 50px;
+}
 .Header-ul button {
     /* Resetting button styles to make it appear as normal text */
     padding: 20px;
@@ -37,9 +41,10 @@
     font-size 0.4s ease-in-out;
     cursor: pointer;
   }
-  .gg{
-    gap: 10%;
-  }
+ .i1{
+   border-radius: 5px;
+   height: 60vh;
+ }
   .div1sty {
     width: 40vw;
     height: 450px;
@@ -50,6 +55,7 @@
   }
   .gg{
     padding-top: 5%;
+    gap: 10%;
   }
   .Headsty {
     font-size: 32px;
@@ -87,11 +93,12 @@
     padding-left: 10%;
     display: flex;
     justify-content: space-between;
-    gap: 5%;
+    gap: 13%;
     height: 50vh;
     width: 50vw;
   }
   .div2_img img{
+    border-radius: 15px;
       padding-top: 10%;
   }
   .butsty1 {

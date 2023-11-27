@@ -28,7 +28,7 @@ export default function Front() {
       </header>
      
         <div>
-            <h2 className='parasty1' >Welcome To ExpenseEase <br></br></h2>
+            <h2 className='parasty1' >Welcome To ExpenseEase! <br></br></h2>
         </div>
         <div className='gg' style={{display:'flex'}}>
             <div className='div1sty'>
@@ -44,7 +44,7 @@ export default function Front() {
       </div>
         <div className='div2sty'>
            <div className='div2_content'>
-             <center><h1>Our most unhappy customers are our <br></br> greatest source of learning.</h1></center>
+             <center><h1>Our most unhappy customers are our <br></br> greatest source.</h1></center>
            </div>
            <div className='div2_img'>
             <img src='https://i.pinimg.com/564x/15/3a/45/153a4535df6cf2d2b106a558b750c486.jpg' alt=''></img>
