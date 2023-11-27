@@ -1,0 +1,132 @@
+/* styles.css */
+
+.divsty {
+    font-family: "sans-serif";
+    margin-top: -10px;
+  }
+  .Header {
+    background-color: rgb(22, 125, 165);
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+  }
+  .header-h1{
+    padding-bottom: 25px;
+  }
+/* styles.css */
+
+.Header-ul button {
+    /* Resetting button styles to make it appear as normal text */
+    padding: 20px;
+    list-style: none;
+    border: none;
+    font-weight:200;
+    background: none;
+    color: black;
+    cursor: pointer;
+    padding-top: 40px;
+  }
+  
+  .parasty1 {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 45px;
+    transition: 
+    font-size 0.4s ease-in-out;
+    cursor: pointer;
+  }
+  .gg{
+    gap: 10%;
+  }
+  .div1sty {
+    width: 40vw;
+    height: 450px;
+    margin-left: 100px;
+    border-radius: 20px;
+    background-color: rgba(240, 240, 240, 1);
+    padding-top: 25px;
+  }
+  .gg{
+    padding-top: 5%;
+  }
+  .Headsty {
+    font-size: 32px;
+    font-family: sans-serif;
+    margin-left: 50px;
+    padding-top: 20px;
+    cursor: pointer;
+  }
+  
+  .parasty {
+    font-size: 22px;
+    transition: font-size 0.4s ease-in-out;
+    margin-left: 50px;
+    cursor: pointer;
+  }
+  
+  .div2sty {
+    text-align: center;
+    font-family: "sans-serif";
+    width: 80vw;
+    height: 90vh;
+    margin-left: 10%;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: rgba(240, 240, 240, 1);
+    margin-bottom: 50px;
+    border: 5px solid black;
+  }
+  .div2_content{
+    padding-top: 3%;
+    font-family: sans-serif;
+    font-weight:600;
+  }
+  .div2_img{
+    padding-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+    height: 50vh;
+    width: 50vw;
+  }
+  .div2_img img{
+      padding-top: 10%;
+  }
+  .butsty1 {
+    background-color:  rgb(22, 125, 165);
+    color: black;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 5%;
+    margin-left: 50px;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    font-size: 22px;
+  }
+  /* styles.css */
+.Headsty{
+  font-size: 37px;
+}
+.headsty2 {
+    color: #28a745;
+    font-size: 45px;
+    transition: font-size 0.4s ease-in-out;
+    padding-top: 50px;
+    cursor: pointer;
+  }
+  
+  /* Add this if size2 is false or undefined */
+  .headsty2 {
+    font-size: 35px;
+    color: blue;
+  }
+  .footer {
+    background-color: white;
+    border: none;
+  }
+  
+
+  

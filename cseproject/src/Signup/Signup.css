@@ -1,0 +1,81 @@
+.parent {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-image: url(https://media.licdn.com/dms/image/D5612AQFKToqj-KEdTg/article-cover_image-shrink_720_1280/0/1695711556428?e=2147483647&v=beta&t=l57FGVXPct3gf66VtzWocomSvZ_3F2UkaQNtsq7ArNo);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .big {
+    height: 80vh;
+    margin-bottom: 15%;
+    margin-right: 60%;
+    font-family: sans-serif;
+    font-weight: 300;
+    margin-left: 23%;
+    margin-top: 11%;
+    align-items: center;
+    border-radius: 20px;
+    background-color:#fff;
+    padding: 35px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-container {
+    position: relative;
+  }
+  
+  input {
+    border: none;
+    /* border-bottom: #3d3d3d; */
+    border-bottom:solid 1px black ;
+    width: 20vw;
+    padding: 15px;
+    /* border: none; */
+    border-radius: 1px;
+    font-size: 16px;
+  }
+  input:hover {
+     font-size: 20px;transition: 0.2s;
+  }
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 15px;
+    transition:
+     background-color 0.3s ease; /* Add smooth transition effect */
+  }
+  
+  button:hover {
+    background-color: darkgreen; /* Change color on hover */
+    font-size: large;
+  }
+  
+  /* Glowing effect */
+  @keyframes glowing {
+    0% {
+      box-shadow: 0 0 5px 0px darkgreen;
+    }
+    50% {
+      box-shadow: 0 0 20px 0px darkgreen;
+    }
+    100% {
+      box-shadow: 0 0 5px 0px darkgreen;
+    }
+  }
+  
+  .box {
+    animation: glowing 2s infinite;
+  }
+  
